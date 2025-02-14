@@ -1,0 +1,33 @@
+# Core dependencies
+--index-url https://pypi.org/simple
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Base packages - install these first
+setuptools
+wheel
+numpy<2.0.0
+
+# ML packages
+torch==2.2.0+cpu
+torchaudio==2.2.0+cpu
+openai-whisper==20231117
+
+# Streamlit and visualization
+streamlit>=1.28.0
+matplotlib<4.0.0
+pandas<2.0.0
+
+# Audio processing
+scipy<2.0.0
+soundfile==0.12.1
+ffmpeg-python==0.2.0
+librosa<1.0.0
+sounddevice==0.4.5
+pyaudio
+
+# Additional features
+gTTS==2.3.1
+textblob==0.17.1
+scikit-learn<2.0.0
+google-generativeai==0.3.1
+pillow<10.0.0 
